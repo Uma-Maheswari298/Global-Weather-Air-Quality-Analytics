@@ -24,6 +24,31 @@
 ## 📊 Dataset Description
    |Column Name | Data Type | Description|
    |------------|-----------|------------|
+   |country|
+   |location_name|
+   |latitude|
+   |longitude|
+   |time/zone|
+   |last_updated|
+   |temperature_celsius|
+   |Weather_condition|
+   |wind_kph|
+   |wind_degree|
+   |pressure_mb|
+   |Precip_mm|
+   |Humidity|
+   |cloud|
+   |feels_like_celsius|
+   |visibility_km|
+   |uv_index|
+   |gust_kph|
+   |air_quality_Carbon_Monoxide|
+   |air_quality_Ozone|
+   |air_quality_Nitrogen_dioxide|
+   |air_quality_PM2.5|
+   |air_quality_PM10|
+   |air_quality_us-epa-index|
+
 
 
 
