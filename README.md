@@ -158,6 +158,103 @@ As part of the data transformation process, the dataset was modified to improve 
    - There is a noticeable drop in frequency after the top few conditions, showing that some weather conditions are relatively uncommon.
    - Conditions such as Moderate or Heavy Rain with Thunder and Freezing Fog occur much less frequently, indicating that severe or unusual        weather events are relatively rare in the dataset.
    - Overall, the distribution shows that the dataset is dominated by common and relatively mild weather conditions rather than extreme weather events.
+- ## Bivariate Analysis
+- ## Weather Conditions across Countries
+- **Objective:** Analyze global weather conditions across countries
+- **Plot Summary:** Compare the average temperature across the top 10 countries.
+   <img width="895" height="593" alt="image" src="https://github.com/user-attachments/assets/d9dfc259-5769-4fcb-9dc8-60a6ab524356" />
+
+- ## Key Insights
+   - United Arab Emirates has the highest average temperature at approximately 32.69°C, closely followed by Qatar (32.69°C).
+   - Djibouti, Kuwait, Oman, and Saudi Arabia also show high average temperatures above 31°C, indicating predominantly hot climatic conditions.
+   - Cambodia, Bangladesh, Thailand, and Myanmar have average temperatures above 30°C, showing that several Southeast Asian countries also experience consistently warm conditions.
+   - The difference between the highest and lowest average temperatures among these top 10 countries is only about 2.18°C, indicating that the countries in this group have relatively similar warm temperature levels.
+   - Overall, the top 10 countries are concentrated mainly in hot and tropical regions, where warm temperatures are commonly observed.
+     
+- ## Relationship between Humidity & Air Quality PM2.5
+- **Objective:**  To identify relationships between weather parameters and air quality indicators.
+- **Plot Summary:** To determine whether changes in humidity are associated with changes in PM2.5 concentration.
+   <img width="769" height="550" alt="image" src="https://github.com/user-attachments/assets/fefe1b15-d47d-4f44-b456-9e70cbb2c4dd" />
+
+- ## Key Insights
+   - Most observations show low to moderate PM2.5 levels across different humidity values.
+   - There is no strong clear linear relationship between humidity and PM2.5 in this chart.
+   - Some high PM2.5 values occur at higher humidity levels, particularly around 70–90% humidity, but they are relatively few.
+   - The wide spread of PM2.5 values indicates that humidity alone may not explain pollution levels; other factors such as wind speed, temperature, and location may also influence air quality.
+   - A few extreme PM2.5 values appear as outliers, reaching above 1,000 µg/m³.
+- ## Actual Temperature vs Feels like Temperature
+- **Objective:** To analyze the relationship between actual temperature and feels-like temperature
+- **Plot Summary:** To analyze the relationship between actual temperature and feels-like temperature and understand how closely they vary across different weather conditions.
+   <img width="814" height="589" alt="image" src="https://github.com/user-attachments/assets/703b25fc-82b7-4864-96c8-4a648bd111a3" />
+- ## Key Insights
+   - The scatter plot shows a strong positive relationship between actual temperature and feels-like temperature.
+   - As actual temperature increases, the feels-like temperature also generally increases.
+   - At lower temperatures, the two values are relatively close, while at higher temperatures, there is greater variation in feels-like temperature.
+   - This variation suggests that humidity, wind speed, and other weather factors can influence how the temperature feels.
+   - Overall, the plot indicates that actual temperature is a strong indicator of feels-like temperature.
+- ## Identify Higher Pollution Countries
+- **Objective:** To identify locations with higher pollution levels using air quality indicators and pollution category.
+- **Plot Summary:** The stacked bar chart identifies the top 10 countries with the highest high-pollution observations and shows the contribution of each pollution severity category.
+  <img width="1011" height="548" alt="image" src="https://github.com/user-attachments/assets/4bcfdea1-4cad-4cc6-b57b-fb2dfa469077" />
+- ## Key Insights
+   - Vietnam has the highest number of high-pollution observations, with 586 Unhealthy, 46 Very Unhealthy, and 8 Hazardous observations.
+   - Indonesia has the highest number of Very Unhealthy (178) observations among the countries shown.
+   - Saudi Arabia has a notable number of Hazardous observations (106), the highest in this chart.
+   - China and India also show substantial high-pollution observations, with Unhealthy being the dominant category.
+   - Overall, Unhealthy pollution is the most common high-pollution category across most of the top 10 countries, while Hazardous observations are generally less frequent.
+   - Iran and the United Arab Emirates have comparatively fewer Very Unhealthy and Hazardous observations than several other countries in the chart.
+- ## Monthly Distribution of Pollution Category
+- **Objective:** To analyze the monthly distribution and variation of pollution categories.
+- **Plot Summary:** The chart highlights monthly variations in pollution categories and identifies months with higher proportions of unhealthy air-quality levels.
+ <img width="1090" height="691" alt="image" src="https://github.com/user-attachments/assets/fff0376d-16dc-41d4-9bdc-ae60b12a563e" />
+- ## Key Insights
+   - Good pollution category is highest in August (63.0%) and July (62.9%), indicating better air-quality conditions during these months.
+   - March shows the lowest Good category (37.1%) and the highest Unhealthy category (24.3%), indicating relatively poorer air quality.
+   - April has the highest Moderate category (39.5%), followed by March (37.2%) and September (37.1%).
+   - January and February also show relatively higher Unhealthy proportions at 19.5% and 19.2%, respectively.
+   - Very Unhealthy and Hazardous categories represent only a small proportion of observations across most months.
+   - Overall, the chart suggests better pollution conditions during June–August and comparatively poorer conditions during March–April and January–February.
+- ## Multi Variate Analysis
+- ## Pollution based Correlation Analysis
+- **Objective:** To identify relationships between weather parameters and air quality using correlation matrix.
+- **Plot Summary:** To analyze the correlation between weather parameters and air quality indicators and identify the strength and direction of their relationships.
+   <img width="733" height="573" alt="image" src="https://github.com/user-attachments/assets/986ec8c1-61fb-4c1f-a201-7fd118e42694" />
+- ## Key Insights
+   - PM2.5 and PM10: These two air quality indicators are highly correlated (0.97), which is expected as they are both particulate matters. This means they tend to increase or decrease together.
+   - Temperature and Pressure: There's a moderate negative correlation (-0.415), suggesting that as temperature rises, atmospheric pressure generally tends to fall.
+   - Wind Speed and Precipitation: Wind speed (wind_kph) and precipitation (precip_mm) show relatively weak linear correlations with air quality indicators in this dataset, suggesting their direct linear relationship with pollution levels might not be strong or is more complex.
+   - Visibility and Particulate Matter: Visibility has a negative correlation with PM2.5 (-0.23) and PM10 (-0.28). This indicates that poorer air quality (higher PM2.5/PM10) leads to reduced visibility.
+- ## Temperature vs PM2.5 by Pollution Category
+- **Objective:** To analyze the relationship between temperature and PM2.5 levels across different pollution categories.
+- **Plot Summary:** The scatter plot illustrates the relationship between temperature and PM2.5 levels across different pollution categories, highlighting variations in air quality at different temperature ranges.
+   <img width="909" height="563" alt="image" src="https://github.com/user-attachments/assets/da2092d5-7774-4b54-89d6-8ab9ed308048" />
+- ## Key Insights
+  - Good pollution observations are mainly concentrated at lower PM2.5 levels across most temperature ranges.
+  - As PM2.5 increases, observations shift toward Moderate, Unhealthy, Very Unhealthy, and Hazardous categories.
+  - The highest PM2.5 values are mostly observed around 0–15°C, with some extreme values exceeding 1,000 µg/m³.
+  - At moderate-to-high temperatures (20–40°C), PM2.5 values are generally lower than the extreme concentrations seen around 0–15°C.
+  - Overall, the plot shows variation in PM2.5 across temperature ranges, but temperature alone does not appear to consistently determine pollution levels.
+- ## Hourly Variation in PM2.5 & PM10 Levels
+- **Objective:** To identify hourly patterns in PM2.5 and PM10 pollution levels.
+- **Plot Summary:** The line chart highlights hourly variations in PM2.5 and PM10 levels, helping identify periods of higher and lower pollution throughout the day.
+  <img width="1090" height="490" alt="image" src="https://github.com/user-attachments/assets/93d8a388-36c9-4571-bb22-b429f83d3076" />
+- ## Key Insights
+   - Early Morning Peak (around 0-3 AM): There's an initial peak in both PM2.5 and PM10 concentrations during the early morning hours, particularly around 1-3 AM.
+   - Morning Decline: Following the early morning peak, pollution levels tend to decrease, reaching their lowest point in the late morning to early afternoon (roughly 6 AM to 12 PM).
+   - Afternoon/Evening Increase: Both PM2.5 and PM10 levels begin to rise again in the afternoon, continuing into the evening.
+   - Evening Peak (around 6-9 PM): Another significant peak in pollution is observed in the evening hours, typically between 6 PM and 9 PM.
+   - PM10 generally higher than PM2.5: Throughout the day, PM10 concentrations are consistently higher than PM2.5 concentrations.
+   - These patterns often correlate with human activity, such as morning and evening commutes, and atmospheric conditions like temperature inversions that can trap pollutants closer to the ground during specific times of the day.
+
+
+
+
+
+
+
+
+
+
 
 	
 	
