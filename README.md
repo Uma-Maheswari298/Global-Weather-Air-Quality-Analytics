@@ -254,32 +254,52 @@ As part of the data transformation process, the dataset was modified to improve 
 - ## Key Analysis
 - 📊 **Descriptive Analysis**
      •	The dataset covers weather and air-quality observations across multiple countries and cities, providing a global view of environmental conditions.
+  
      •	Temperature observations are mainly concentrated around the 15°C–32°C range, while extreme temperatures occur less frequently.
+  
      •	The analysis shows that Good and Moderate air-quality conditions are common, but unhealthy pollution categories are also present in several locations.
+  
      •	PM10 is generally higher than PM2.5, indicating the presence of both fine and coarse particulate pollution.
+  
      •	Country-wise analysis shows significant variation in average PM2.5 and PM10 concentrations.
+  
      •	Higher PM2.5 concentrations are observed in some countries, indicating locations with comparatively poorer air quality.
+  
      •	Wind speed and humidity show noticeable variation across observations, while extreme wind-speed values are relatively uncommon.
 
 - 🔍 **Diagnostic Analysis**
       •	The Temperature vs PM2.5 analysis shows that PM2.5 occurs across a wide range of temperatures, suggesting that temperature alone does not explain pollution levels.
+  
       •	The Wind Speed vs PM2.5 visualization indicates a possible negative relationship, where higher PM2.5 concentrations are more frequently observed at lower wind speeds.
+  
       •	The Humidity vs PM2.5 analysis shows a possible positive relationship, with higher PM2.5 values occurring more frequently at higher humidity levels.
+  
       •	Pollution categories show clear differences in PM2.5 concentration: Good and Moderate categories generally have lower PM2.5, while Unhealthy, Very Unhealthy and Hazardous categories have progressively higher values.
+  
       •	Country-wise PM2.5 and PM10 averages indicate that geographical location is an an important factor in pollution variation.
+  
       •	Extreme values in variables such as wind speed and pollutant concentrations were identified as potential data errors or outliers and were reviewed during data cleaning.
-- 💡** Prescriptive Analysis**
+- 💡**Prescriptive Analysis**
      •	Locations showing consistently high PM2.5 and PM10 should be prioritized for air-quality monitoring and pollution-control measures.
+  
      •	During periods of high pollution and low wind conditions, authorities can issue health advisories and recommend reducing outdoor exposure.
+  
      •	Areas experiencing recurring unhealthy pollution levels can implement stronger emission-control strategies targeting traffic, industries and other pollution sources.
+  
      •	Real-time monitoring can be used to provide early warnings when air quality approaches unhealthy levels.
+  
      •	Weather conditions associated with higher pollution can be incorporated into an early-warning system for vulnerable populations.
+  
      •	Countries and cities with comparatively cleaner air can be studied to identify better environmental practices.
 - **Predictive Analysis**
      •	Weather variables such as temperature, humidity, wind speed, cloud cover and visibility, together with pollutant measurements, can be used to predict future air-quality conditions.
+  
      •	PM2.5 and PM10 levels can be used as important indicators for identifying the likelihood of higher pollution categories.
+  
      •	Locations that repeatedly show high PM2.5/PM10 concentrations may have a higher likelihood of experiencing poor air-quality conditions.
+  
      •	Historical weather and air-quality patterns can potentially be used to predict whether a location may fall into Good, Moderate, Unhealthy or Hazardous pollution categories.
+  
      •	A machine-learning classification model could be developed to predict the US EPA pollution category using weather and pollutant features.
 
 
