@@ -52,7 +52,7 @@
  -  A Data Analytics Pipeline is a step-by-step process used to convert raw data into meaningful insights.
    <img width="777" height="324" alt="image" src="https://github.com/user-attachments/assets/70cb5f9f-0c2b-43d2-ba9f-0db583aa51c7" />
    
-##🧹**Data Cleaning & Preprocessing**
+## 🧹Data Cleaning & Preprocessing
   - During the data cleaning and preprocessing stage, the dataset was carefully reviewed to ensure data quality, consistency, and reliability        before proceeding with further analysis.
  - ## Removal of Unwanted Columns:
    - Unnecessary and redundant columns were removed based on the project objectives. Duplicate unit-based columns such as Fahrenheit, MPH, and         miles were eliminated, along with irrelevant timestamp, moon, and certain air-quality columns. This reduced dataset complexity and created a      focused dataset for weather and air-quality analysis.
@@ -95,13 +95,14 @@
   - **Month Name Extraction:**
      - The **month_name** feature was extracted from the **last_updated** datetime column to analyze monthly variations and seasonal patterns in     temperature and air-quality levels.
   - **Hour Extraction:**
-     - •	A new column named **update_hour** was created by extracting the hour component from the **last_updated** datetime column. 
-      |New Feature|Derived from|Purpose|
-      |-----------|------------|-------|
-      |Pollution_category|air_quality_us-epa-index|To classify and compare pollution levels across locations.|
-      |Temperature_category|temperature_celsius|To analyze and compare temperature conditions across locations.|
-      |Month_name|last_updated|To analyze monthly and seasonal variations|
-      |Update_hour|last_updated|To analyze hourly weather and pollution patterns|
+     - •	A new column named **update_hour** was created by extracting the hour component from the **last_updated** datetime column.
+       
+       |New Feature|Derived from|Purpose|
+       |-----------|------------|-------|
+       |Pollution_category|air_quality_us-epa-index|To classify and compare pollution levels across locations.|
+       |Temperature_category|temperature_celsius|To analyze and compare temperature conditions across locations.|
+       |Month_name|last_updated|To analyze monthly and seasonal variations|
+       |Update_hour|last_updated|To analyze hourly weather and pollution patterns|
 - ## Data Transformation
 As part of the data transformation process, the dataset was modified to improve data consistency, readability, and usability for further analysis.
  - **Date-Time Conversion:**
