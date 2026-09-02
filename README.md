@@ -208,6 +208,7 @@ As part of the data transformation process, the dataset was modified to improve 
 - **Plot Summary:** The chart highlights monthly variations in pollution categories and identifies months with higher proportions of unhealthy air-quality levels.
  <img width="1090" height="691" alt="image" src="https://github.com/user-attachments/assets/fff0376d-16dc-41d4-9bdc-ae60b12a563e" />
 - ## Key Insights
+  
    - Good pollution category is highest in August (63.0%) and July (62.9%), indicating better air-quality conditions during these months.
    - March shows the lowest Good category (37.1%) and the highest Unhealthy category (24.3%), indicating relatively poorer air quality.
    - April has the highest Moderate category (39.5%), followed by March (37.2%) and September (37.1%).
@@ -218,6 +219,7 @@ As part of the data transformation process, the dataset was modified to improve 
 - ## Pollution based Correlation Analysis
 - **Objective:** To identify relationships between weather parameters and air quality using correlation matrix.
 - **Plot Summary:** To analyze the correlation between weather parameters and air quality indicators and identify the strength and direction of their relationships.
+  
    <img width="733" height="573" alt="image" src="https://github.com/user-attachments/assets/986ec8c1-61fb-4c1f-a201-7fd118e42694" />
 - ## Key Insights
   
