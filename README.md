@@ -309,14 +309,13 @@ As part of the data transformation process, the dataset was modified to improve 
   
 - ## 🚀 Future Enhancements
   
-   - Develop machine learning models to predict PM2.5 and PM10 pollution levels.
-   - Integrate real-time weather and air quality API data.
-   - Build an interactive dashboard using Power BI or Streamlit.
-   - Develop pollution forecasting models for future pollution levels.
-   - Perform geographical analysis to identify pollution hotspots.
-   - Implement automated alerts for high pollution levels.
-   - Analyze long-term seasonal and yearly weather and pollution trends.
-     
+  - **Pollution Monitoring:** Locations with higher PM2.5 and PM10 levels should be monitored regularly to identify areas experiencing poor air quality.
+  - **Real-Time Monitoring:** Real-time weather and air-quality data can be integrated to provide continuous pollution monitoring.
+  - **Pollution Forecasting**: Machine learning models can be developed to predict future PM2.5 and PM10 levels and support early pollution warnings.
+  - **Weather-Based Analysis:** Weather conditions such as temperature, humidity and wind speed should be considered when assessing changes in pollution levels.
+  - **Pollution Alerts**: Automated alerts can be implemented when pollution levels reach unhealthy or hazardous categories.
+  - **Geographical Analysis:** Pollution hotspots can be identified using country, city, latitude and longitude information to support targeted environmental actions.
+
 - ## Conclusion
 
 The Global Weather & Air Quality Analysis provides valuable insights into weather conditions and air-quality levels across different countries and cities. The analysis identified significant variations in temperature, humidity, wind speed, PM2.5, and PM10 concentrations across locations. The results also indicate that factors such as wind speed, humidity, temperature, and geographical location may influence air-quality conditions. Some locations showed higher particulate pollution and unhealthy air-quality categories, highlighting potential areas of concern. Overall, this analysis can support better air-quality monitoring, pollution assessment, early-warning systems, and data-driven environmental decision-making.
