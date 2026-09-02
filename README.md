@@ -220,8 +220,9 @@ As part of the data transformation process, the dataset was modified to improve 
 - **Plot Summary:** To analyze the correlation between weather parameters and air quality indicators and identify the strength and direction of their relationships.
    <img width="733" height="573" alt="image" src="https://github.com/user-attachments/assets/986ec8c1-61fb-4c1f-a201-7fd118e42694" />
 - ## Key Insights
-   - PM2.5 and PM10: These two air quality indicators are highly correlated (0.97), which is expected as they are both particulate matters. This means they tend to increase or decrease together.
-   - Temperature and Pressure: There's a moderate negative correlation (-0.415), suggesting that as temperature rises, atmospheric pressure generally tends to fall.
+  
+   - PM2.5 and PM10: These two air quality indicators are highly correlated (0.97), which is expected as they are both particulate matters. This       means they tend to increase or decrease together.
+   - Temperature and Pressure: There's a moderate negative correlation (-0.415), suggesting that as temperature rises, atmospheric pressure    generally tends to fall.
    - Wind Speed and Precipitation: Wind speed (wind_kph) and precipitation (precip_mm) show relatively weak linear correlations with air quality indicators in this dataset, suggesting their direct linear relationship with pollution levels might not be strong or is more complex.
    - Visibility and Particulate Matter: Visibility has a negative correlation with PM2.5 (-0.23) and PM10 (-0.28). This indicates that poorer air quality (higher PM2.5/PM10) leads to reduced visibility.
 - ## Temperature vs PM2.5 by Pollution Category
@@ -229,6 +230,7 @@ As part of the data transformation process, the dataset was modified to improve 
 - **Plot Summary:** The scatter plot illustrates the relationship between temperature and PM2.5 levels across different pollution categories, highlighting variations in air quality at different temperature ranges.
    <img width="909" height="563" alt="image" src="https://github.com/user-attachments/assets/da2092d5-7774-4b54-89d6-8ab9ed308048" />
 - ## Key Insights
+  
   - Good pollution observations are mainly concentrated at lower PM2.5 levels across most temperature ranges.
   - As PM2.5 increases, observations shift toward Moderate, Unhealthy, Very Unhealthy, and Hazardous categories.
   - The highest PM2.5 values are mostly observed around 0–15°C, with some extreme values exceeding 1,000 µg/m³.
@@ -239,6 +241,7 @@ As part of the data transformation process, the dataset was modified to improve 
 - **Plot Summary:** The line chart highlights hourly variations in PM2.5 and PM10 levels, helping identify periods of higher and lower pollution throughout the day.
   <img width="1090" height="490" alt="image" src="https://github.com/user-attachments/assets/93d8a388-36c9-4571-bb22-b429f83d3076" />
 - ## Key Insights
+ 
    - Early Morning Peak (around 0-3 AM): There's an initial peak in both PM2.5 and PM10 concentrations during the early morning hours, particularly around 1-3 AM.
    - Morning Decline: Following the early morning peak, pollution levels tend to decrease, reaching their lowest point in the late morning to early afternoon (roughly 6 AM to 12 PM).
    - Afternoon/Evening Increase: Both PM2.5 and PM10 levels begin to rise again in the afternoon, continuing into the evening.
