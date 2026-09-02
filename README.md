@@ -165,7 +165,7 @@ As part of the data transformation process, the dataset was modified to improve 
      <img width="960" height="636" alt="image" src="https://github.com/user-attachments/assets/8a044542-50f4-420b-8b06-58184ccf0c65" />
 	 
 - ## Key Insights
-   - Sunny is the most frequently recorded weather condition, followed by Partly Cloudy, indicating that clear or mostly clear conditions              dominate the dataset.
+   - Partly Cloudy is the most frequently recorded weather condition, followed by Sunny, indicating that clear or mostly clear conditions              dominate the dataset.
    - Light Rain, Clear, and Mist are also among the common weather conditions, but occur less frequently than Sunny and Partly Cloudy.
    - There is a noticeable drop in frequency after the top few conditions, showing that some weather conditions are relatively uncommon.
    - Conditions such as Moderate or Heavy Rain with Thunder and Freezing Fog occur much less frequently, indicating that severe or unusual        weather events are relatively rare in the dataset.
