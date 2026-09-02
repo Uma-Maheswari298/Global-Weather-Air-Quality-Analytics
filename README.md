@@ -118,32 +118,48 @@ As part of the data transformation process, the dataset was modified to improve 
   - Reviewed the numerical variables to ensure that previously identified invalid and unrealistic values had been properly handled.
   - Checked the overall data structure and value distributions to identify any remaining inconsistencies.
 - ## Statistical Analysis
-   |Columns Name|Mean|Median|Mode|Variance|Standard Deviation|
-   |temperature_celsius|21.566100|24.100|26.30|92.458965|9.615559|
-   |wind_kph|12.959654|11.200|3.60|70.863770|8.418062|
-   |pressure_mb|1014.024425|1014.000|1013.00|49.211322|7.015078|
-   |precip_mm|0.136675|	0.000|0.00|0.325355|0.570399|
-   |humidity|66.179440|71.000|94.00|577.142071|24.023781|
-   |cloud|40.036884|31.000|0.00|1161.979927|34.087827|
-   |feels_like_celsius|22.455924|25.300|24.60|132.158749|11.496032|
-   |visibility_km|9.516108|10.000|10.00|7.150968|2.674129|
-   |uv_index|3.430491|2.100|0.00|12.703395|3.564182|
-   |gust_kph|18.289470|15.500|10.80|126.467673|11.245785|
-   |air_quality_Carbon_Monoxide|475.327953|302.850|217.00|608187.423778|779.863721|
-   |air_quality_Ozone|58.849419|56.000|51.00|966.932293|31.095535|
-   |air_quality_Nitrogen_dioxide|15.234244|5.500|0.00|587.048315|24.229080|
-   |air_quality_PM2.5|24.558451|14.245|0.50|1421.511537|37.702938|
-   |air_quality_PM10|49.175345|20.250|12.95|22925.464586|151.411573|
+  
+    |Columns Name|Mean|Median|Mode|Variance|Standard Deviation|
+    |temperature_celsius|21.566100|24.100|26.30|92.458965|9.615559|
+    |wind_kph|12.959654|11.200|3.60|70.863770|8.418062|
+    |pressure_mb|1014.024425|1014.000|1013.00|49.211322|7.015078|
+    |precip_mm|0.136675|	0.000|0.00|0.325355|0.570399|
+    |humidity|66.179440|71.000|94.00|577.142071|24.023781|
+    |cloud|40.036884|31.000|0.00|1161.979927|34.087827|
+    |feels_like_celsius|22.455924|25.300|24.60|132.158749|11.496032|
+    |visibility_km|9.516108|10.000|10.00|7.150968|2.674129|
+    |uv_index|3.430491|2.100|0.00|12.703395|3.564182|
+    |gust_kph|18.289470|15.500|10.80|126.467673|11.245785|
+    |air_quality_Carbon_Monoxide|475.327953|302.850|217.00|608187.423778|779.863721|
+    |air_quality_Ozone|58.849419|56.000|51.00|966.932293|31.095535|
+    |air_quality_Nitrogen_dioxide|15.234244|5.500|0.00|587.048315|24.229080|
+    |air_quality_PM2.5|24.558451|14.245|0.50|1421.511537|37.702938|
+    |air_quality_PM10|49.175345|20.250|12.95|22925.464586|151.411573|
 - ## Data Visulization
 - **Univariate Analysis**
 - **Objective:** To analyze the distribution and variability of temperature across the dataset.
 - **Plot Summary:** Analyzes the frequency and density spread of ambient temperatures across dataset.
  <img width="922" height="494" alt="image" src="https://github.com/user-attachments/assets/240c773d-e790-4a92-9b94-83a25892fb44" />
  - **Key Insights**
- - The histogram shows a roughly bell-shaped distribution, indicating that most temperature readings are concentrated around a central range.
- - The highest frequency of observations is between approximately 25°C and 30°C, suggesting that moderate-to-warm temperatures are more common in the dataset.
- - The temperature values range from approximately -30°C to 50°C, reflecting the dataset's coverage of diverse climatic conditions across different countries and locations.
- - Overall, the distribution suggests that typical global temperature observations are concentrated around moderate-to-warm conditions, while extreme temperatures are relatively uncommon.	
+  - The histogram shows a roughly bell-shaped distribution, indicating that most temperature readings are concentrated around a central range.
+  - The highest frequency of observations is between approximately 25°C and 30°C, suggesting that moderate-to-warm temperatures are more common       in the dataset.
+  - The temperature values range from approximately -30°C to 50°C, reflecting the dataset's coverage of diverse climatic conditions across            different countries and locations.
+  - Overall, the distribution suggests that typical global temperature observations are concentrated around moderate-to-warm conditions, while        extreme temperatures are relatively uncommon.
+- ## Most Frequent Weather Conditions
+- **Objective:** To identify and visualize the top most frequently occurring weather conditions in the dataset
+- **Plot Summary:** To determine the most common weather conditions and compare their frequency using the top 10 weather conditions.
+     <img width="960" height="636" alt="image" src="https://github.com/user-attachments/assets/8a044542-50f4-420b-8b06-58184ccf0c65" />
+- ## Key Insights
+   - Sunny is the most frequently recorded weather condition, followed by Partly Cloudy, indicating that clear or mostly clear conditions              dominate the dataset.
+   - Light Rain, Clear, and Mist are also among the common weather conditions, but occur less frequently than Sunny and Partly Cloudy.
+   - There is a noticeable drop in frequency after the top few conditions, showing that some weather conditions are relatively uncommon.
+   - Conditions such as Moderate or Heavy Rain with Thunder and Freezing Fog occur much less frequently, indicating that severe or unusual        weather events are relatively rare in the dataset.
+   - Overall, the distribution shows that the dataset is dominated by common and relatively mild weather conditions rather than extreme weather events.
+
+	
+	
+
+
  
 
 
