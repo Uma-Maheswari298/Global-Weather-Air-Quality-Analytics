@@ -136,6 +136,18 @@ As part of the data transformation process, the dataset was modified to improve 
     |air_quality_Nitrogen_dioxide|15.234244|5.500|0.00|587.048315|24.229080|
     |air_quality_PM2.5|24.558451|14.245|0.50|1421.511537|37.702938|
     |air_quality_PM10|49.175345|20.250|12.95|22925.464586|151.411573|
+
+- ## Key Insights
+ -  T**emperature:** The average temperature is 21.57°C, while the median is 24.10°C and standard deviation is 9.62°C, indicating considerable variation in temperature across locations.
+ -  **Wind Speed:** The mean wind speed is 12.96 km/h, with a standard deviation of 8.42 km/h, showing moderate variability in wind conditions.
+ - **Precipitation:** Precipitation has a very low mean of 0.14 mm, while both the median and mode are 0 mm, indicating that most observations recorded little or no rainfall.
+ - **Humidity:** The average humidity is 66.18%, with a standard deviation of 24.02%, indicating substantial variation in moisture levels across locations.
+ - **Cloud Cover:** Cloud cover averages 40.04%, but the high standard deviation of 34.09% shows that cloud conditions vary considerably.
+ - **Visibility:** Visibility is relatively stable, with a mean of 9.52 km and median of 10 km, suggesting generally good visibility across observations.
+ - **Air Quality – PM2.5:** The mean PM2.5 level is 24.56, while the median is 14.25, indicating that some observations have considerably higher PM2.5 concentrations.
+ - **Air Quality – PM10:** PM10 shows high variability, with a mean of 49.18 and a very high standard deviation of 151.41, suggesting the presence of extreme pollution observations.
+ - **Carbon Monoxide:** CO has a mean of 475.33 but a standard deviation of 779.86, indicating very high variability and possible extreme values in some locations.
+ - **Overall Air Quality:** Among the air-quality indicators, PM10 and Carbon Monoxide show particularly high variability, highlighting significant differences in pollution levels across locations.
 - ## Data Visulization
 - **Univariate Analysis**
 - **Objective:** To analyze the distribution and variability of temperature across the dataset.
