@@ -119,7 +119,8 @@ As part of the data transformation process, the dataset was modified to improve 
   - Checked the overall data structure and value distributions to identify any remaining inconsistencies.
 - ## Statistical Analysis
   
-    |Columns Name|Mean|Median|Mode|Variance|Standard Deviation|
+  - |Columns Name|Mean|Median|Mode|Variance|Standard Deviation|
+    |------------|----|------|----|--------|------------------|
     |temperature_celsius|21.566100|24.100|26.30|92.458965|9.615559|
     |wind_kph|12.959654|11.200|3.60|70.863770|8.418062|
     |pressure_mb|1014.024425|1014.000|1013.00|49.211322|7.015078|
@@ -140,7 +141,8 @@ As part of the data transformation process, the dataset was modified to improve 
 - **Objective:** To analyze the distribution and variability of temperature across the dataset.
 - **Plot Summary:** Analyzes the frequency and density spread of ambient temperatures across dataset.
  <img width="922" height="494" alt="image" src="https://github.com/user-attachments/assets/240c773d-e790-4a92-9b94-83a25892fb44" />
- - **Key Insights**
+ 
+- **Key Insights**
   - The histogram shows a roughly bell-shaped distribution, indicating that most temperature readings are concentrated around a central range.
   - The highest frequency of observations is between approximately 25°C and 30°C, suggesting that moderate-to-warm temperatures are more common       in the dataset.
   - The temperature values range from approximately -30°C to 50°C, reflecting the dataset's coverage of diverse climatic conditions across            different countries and locations.
@@ -149,6 +151,7 @@ As part of the data transformation process, the dataset was modified to improve 
 - **Objective:** To identify and visualize the top most frequently occurring weather conditions in the dataset
 - **Plot Summary:** To determine the most common weather conditions and compare their frequency using the top 10 weather conditions.
      <img width="960" height="636" alt="image" src="https://github.com/user-attachments/assets/8a044542-50f4-420b-8b06-58184ccf0c65" />
+	 
 - ## Key Insights
    - Sunny is the most frequently recorded weather condition, followed by Partly Cloudy, indicating that clear or mostly clear conditions              dominate the dataset.
    - Light Rain, Clear, and Mist are also among the common weather conditions, but occur less frequently than Sunny and Partly Cloudy.
