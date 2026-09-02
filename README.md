@@ -51,8 +51,9 @@
 ## Data Analytics Life Cycle
  -  A Data Analytics Pipeline is a step-by-step process used to convert raw data into meaningful insights.
    <img width="777" height="324" alt="image" src="https://github.com/user-attachments/assets/70cb5f9f-0c2b-43d2-ba9f-0db583aa51c7" />
+   
 ##🧹**Data Cleaning & Preprocessing**
- - During the data cleaning and preprocessing stage, the dataset was carefully reviewed to ensure data quality, consistency, and reliability        before proceeding with further analysis.
+  - During the data cleaning and preprocessing stage, the dataset was carefully reviewed to ensure data quality, consistency, and reliability        before proceeding with further analysis.
  - ## Removal of Unwanted Columns:
    - Unnecessary and redundant columns were removed based on the project objectives. Duplicate unit-based columns such as Fahrenheit, MPH, and         miles were eliminated, along with irrelevant timestamp, moon, and certain air-quality columns. This reduced dataset complexity and created a      focused dataset for weather and air-quality analysis.
  - ## Handling Missing Values:
