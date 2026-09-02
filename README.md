@@ -207,6 +207,7 @@ As part of the data transformation process, the dataset was modified to improve 
 - **Objective:** To analyze the monthly distribution and variation of pollution categories.
 - **Plot Summary:** The chart highlights monthly variations in pollution categories and identifies months with higher proportions of unhealthy air-quality levels.
  <img width="1090" height="691" alt="image" src="https://github.com/user-attachments/assets/fff0376d-16dc-41d4-9bdc-ae60b12a563e" />
+ 
 - ## Key Insights
   
    - Good pollution category is highest in August (63.0%) and July (62.9%), indicating better air-quality conditions during these months.
@@ -253,6 +254,7 @@ As part of the data transformation process, the dataset was modified to improve 
 
 - ## Key Analysis
 - 📊 **Descriptive Analysis**
+ 
      •	The dataset covers weather and air-quality observations across multiple countries and cities, providing a global view of environmental conditions.
   
      •	Temperature observations are mainly concentrated around the 15°C–32°C range, while extreme temperatures occur less frequently.
@@ -268,6 +270,7 @@ As part of the data transformation process, the dataset was modified to improve 
      •	Wind speed and humidity show noticeable variation across observations, while extreme wind-speed values are relatively uncommon.
 
 - 🔍 **Diagnostic Analysis**
+  
       •	The Temperature vs PM2.5 analysis shows that PM2.5 occurs across a wide range of temperatures, suggesting that temperature alone does not explain pollution levels.
   
       •	The Wind Speed vs PM2.5 visualization indicates a possible negative relationship, where higher PM2.5 concentrations are more frequently observed at lower wind speeds.
@@ -280,6 +283,7 @@ As part of the data transformation process, the dataset was modified to improve 
   
       •	Extreme values in variables such as wind speed and pollutant concentrations were identified as potential data errors or outliers and were reviewed during data cleaning.
 - 💡**Prescriptive Analysis**
+  
      •	Locations showing consistently high PM2.5 and PM10 should be prioritized for air-quality monitoring and pollution-control measures.
   
      •	During periods of high pollution and low wind conditions, authorities can issue health advisories and recommend reducing outdoor exposure.
@@ -292,6 +296,7 @@ As part of the data transformation process, the dataset was modified to improve 
   
      •	Countries and cities with comparatively cleaner air can be studied to identify better environmental practices.
 - **Predictive Analysis**
+  
      •	Weather variables such as temperature, humidity, wind speed, cloud cover and visibility, together with pollutant measurements, can be used to predict future air-quality conditions.
   
      •	PM2.5 and PM10 levels can be used as important indicators for identifying the likelihood of higher pollution categories.
@@ -301,6 +306,9 @@ As part of the data transformation process, the dataset was modified to improve 
      •	Historical weather and air-quality patterns can potentially be used to predict whether a location may fall into Good, Moderate, Unhealthy or Hazardous pollution categories.
   
      •	A machine-learning classification model could be developed to predict the US EPA pollution category using weather and pollutant features.
+- ## Conclusion
+
+The Global Weather & Air Quality Analysis provides valuable insights into weather conditions and air-quality levels across different countries and cities. The analysis identified significant variations in temperature, humidity, wind speed, PM2.5, and PM10 concentrations across locations. The results also indicate that factors such as wind speed, humidity, temperature, and geographical location may influence air-quality conditions. Some locations showed higher particulate pollution and unhealthy air-quality categories, highlighting potential areas of concern. Overall, this analysis can support better air-quality monitoring, pollution assessment, early-warning systems, and data-driven environmental decision-making.
 
 
 
