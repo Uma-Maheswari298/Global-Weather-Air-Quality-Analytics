@@ -257,12 +257,13 @@ As part of the data transformation process, the dataset was modified to improve 
   <img width="1090" height="490" alt="image" src="https://github.com/user-attachments/assets/93d8a388-36c9-4571-bb22-b429f83d3076" />
 - ## Key Insights
  
-   - Early Morning Peak (around 0-3 AM): There's an initial peak in both PM2.5 and PM10 concentrations during the early morning hours, particularly around 1-3 AM.
-   - Morning Decline: Following the early morning peak, pollution levels tend to decrease, reaching their lowest point in the late morning to early afternoon (roughly 6 AM to 12 PM).
-   - Afternoon/Evening Increase: Both PM2.5 and PM10 levels begin to rise again in the afternoon, continuing into the evening.
-   - Evening Peak (around 6-9 PM): Another significant peak in pollution is observed in the evening hours, typically between 6 PM and 9 PM.
-   - PM10 generally higher than PM2.5: Throughout the day, PM10 concentrations are consistently higher than PM2.5 concentrations.
-   - These patterns often correlate with human activity, such as morning and evening commutes, and atmospheric conditions like temperature inversions that can trap pollutants closer to the ground during specific times of the day.
+   - PM2.5 and PM10 show a similar hourly pattern, indicating that both pollutants tend to increase and decrease during the same periods.
+   - Pollution levels gradually increase from early morning, with PM10 showing a noticeable rise from around 6 AM.
+   - Peak pollution occurs around 12–1 PM, where PM10 reaches its highest level (around 85–88) and PM2.5 is also relatively high.
+   - After 1 PM, both PM2.5 and PM10 decline sharply, indicating lower pollution levels during the afternoon.
+   - A secondary increase is observed around 4 PM, particularly for PM2.5, before pollution levels gradually decrease.
+   - The lowest levels are generally observed during late night/early morning hours, especially around 11 PM–1 AM.
+
 
 - ## Key Analysis
 - 📊 **Descriptive Analysis**
